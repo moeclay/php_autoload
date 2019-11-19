@@ -1,0 +1,16 @@
+{
+    "name": "reza/autoloadphp",
+    "description": "a simple php autoload",
+    "authors": [
+        {
+            "name": "Moeamar Reza R",
+            "email": "moeamarreza@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"AppLoader\\": "src/"
+    	}
+    }
+}
